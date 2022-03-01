@@ -66,7 +66,7 @@ class ItemRepositoryTest {
         assertThat(findItem.getQuantity()).isEqualTo(updateParam.getQuantity());
     }
 
-    @Test
+    /*@Test
     void clearStore() {
-    }
+    }*/
 }

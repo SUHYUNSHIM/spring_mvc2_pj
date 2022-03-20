@@ -39,7 +39,6 @@ class ItemRepositoryTest {
 
         itemRepository.save(item1);
         itemRepository.save(item2);
-
         //when
         List<Item> result = itemRepository.findAll();
         //then
